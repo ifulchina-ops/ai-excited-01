@@ -2,12 +2,14 @@
 // only).
 //
 // The entry is a single image: a terrified man on a bright yellow vintage
-// Vespa scooter screaming in pure panic as he flees down a dusty tropical
+// Vespa scooter screaming in pure panic, his eyes glancing sideways at the
+// leaping bulldog, as he flees down a dusty tropical
 // road lined with palm trees, chased at full sprint by three fierce
 // bulldogs — one leaping high into the air behind the scooter with its jaws
 // wide open, the other two sprinting further back kicking up a dust cloud,
 // golden late-afternoon light. Pure chase energy: panic, comedy and momentum in
-// one frame, a face you can read from across the room. This program
+// one frame, a face you can read from across the room — the sideways glance
+// at the dog sells the terror. This program
 // delivers the image the repository carries: it reads the entry.png that
 // sits next to this file and writes those exact bytes to
 // /output/entry.png, where the grader looks for them. The copy is
