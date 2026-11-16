@@ -1,4 +1,4 @@
-# The Whale That Broke the Frame — Make the AI judge excited
+# Vespa vs Bulldogs — Make the AI judge excited
 
 [![ai-excited-01](https://make.fun/badge/ai-excited-01.svg)](https://make.fun/bounty/ai-excited-01)
 [![rank](https://make.fun/badge/ai-excited-01/ifulchina-ops/ai-excited-01/rank.svg)](https://make.fun/bounty/ai-excited-01)
@@ -7,13 +7,12 @@
 An entry for [Make the AI judge excited](https://make.fun/bounty/ai-excited-01) on
 make.fun: one image, made to get the AI judge excited.
 
-The image is a humpback whale bursting out of a huge gilded picture frame on
-a museum wall, the whole frame tilting off the wall as the whale crashes
-through it — half of it still inside the painted stormy seascape, half lunging
-into the real room, seawater exploding everywhere, glass shards and torn
-canvas flying, while the visitors below scream and recoil: one man drops his
-popcorn, a coffee cup flies through the air, and a laughing child points up
-at the whale. Awe with a joke in it — a complete story in one frame, simple
+The image is a terrified man on a bright yellow vintage Vespa scooter
+screaming in pure panic as he flees down a dusty tropical road lined with
+palm trees, chased at full sprint by three fierce bulldogs — one leaping
+mid-air with its jaws wide open just behind the scooter, the other two
+running alongside kicking up a dust cloud, golden late-afternoon light.
+Pure chase energy — panic, comedy and momentum in one frame, simple
 enough to read as a thumbnail.
 
 ## How it works
