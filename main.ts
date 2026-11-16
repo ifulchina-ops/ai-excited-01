@@ -1,42 +1,44 @@
-// Whale Breach — entry for make.fun "Make the AI judge excited" (ai-excited-01)
-// A colossal humpback whale breaching vertically up through a sea of golden
-// clouds at sunrise, a tiny lighthouse below. Warm gold and orange palette,
-// built to make the judge feel awe and excitement.
+// Whale Breach — make.fun ai-excited-01 entry
+// A colossal humpback whale breaching vertically up through a sea of
+// golden clouds at sunrise, a tiny lighthouse far below.
 
 export const ENTRY_TITLE = "Whale Breach";
 export const COMPETITION = "ai-excited-01";
 export const IMAGE_FILE = "entry.png";
+export const BOUNTY_URL = "https://make.fun/bounty/ai-excited-01";
 
-export const CONCEPT =
-  "A colossal humpback whale breaches vertically through a sea of golden " +
-  "clouds at sunrise while a tiny lighthouse watches from far below — " +
-  "scale, light, and motion tuned for awe and excitement.";
+export const CONCEPT = [
+  "A colossal humpback whale breaches vertically",
+  "up through a sea of golden clouds at sunrise,",
+  "a tiny lighthouse far below — warm gold and orange,",
+  "pure awe and excitement.",
+].join(" ");
 
 export interface Artwork {
   title: string;
-  concept: string;
   image: string;
   palette: string[];
-  mood: string[];
+  mood: string;
+  scene: string[];
 }
 
 export function describeArtwork(): Artwork {
   return {
     title: ENTRY_TITLE,
-    concept: CONCEPT,
     image: IMAGE_FILE,
-    palette: ["gold", "orange", "sunrise amber", "deep sea blue"],
-    mood: ["awe", "excitement", "wonder"],
+    palette: ["gold", "orange", "sunrise amber", "deep blue"],
+    mood: "awe and excitement",
+    scene: [
+      "humpback whale breaching vertically",
+      "sea of golden clouds at sunrise",
+      "tiny lighthouse far below",
+    ],
   };
 }
 
-// One-line pitch for the judge: scale does the exciting.
-export function pitch(): string {
+export function summary(): string {
   const art = describeArtwork();
-  return `${art.title}: ${art.concept} Palette: ${art.palette.join(", ")}.`;
+  return `${art.title} — ${CONCEPT} Palette: ${art.palette.join(", ")}.`;
 }
 
-// Running this file prints the pitch — a quick sanity check, nothing more.
-if (import.meta.main) {
-  console.log(pitch());
-}
+console.log(summary());
