@@ -39,7 +39,8 @@ writeFileSync(target, bytes);
 // Verify the delivery before exiting: re-read what was written and confirm it
 // matches the source byte for byte, so a partial or corrupted write fails the
 // run loudly instead of handing the judge a broken image — a chase this
-// fast deserves every pixel intact, from the flying dust to the dog's teeth.
+// fast deserves every pixel intact, from the flying dust to the dog's
+// teeth — and the glance back at the leaping bulldog, which is the whole joke.
 const delivered = readFileSync(target);
 if (!delivered.equals(bytes)) {
   throw new Error(`entry.png delivery mismatch: wrote ${bytes.length} bytes, read back ${delivered.length}`);
