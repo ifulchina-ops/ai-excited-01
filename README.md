@@ -11,9 +11,11 @@ The image is a terrified man on a bright yellow vintage Vespa scooter
 screaming in pure panic as he flees down a dusty tropical road lined with
 palm trees, chased at full sprint by three fierce bulldogs — one leaping
 high into the air behind the scooter with its jaws wide open, the other two
-sprinting further back kicking up a dust cloud, golden late-afternoon light.
-Pure chase energy — panic, comedy and momentum in one frame, simple
-enough to read as a thumbnail.
+sprinting further back with a clear gap behind them, kicking up a dust
+cloud, golden late-afternoon light. His face glances slightly toward the
+leaping bulldog — a terrified sideways look that sells the chase. Pure
+chase energy: panic, comedy and momentum in one frame, simple enough to
+read as a thumbnail.
 
 ## How it works
 

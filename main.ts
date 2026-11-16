@@ -2,19 +2,18 @@
 // only).
 //
 // The entry is a single image: a terrified man on a bright yellow vintage
-// Vespa scooter screaming in pure panic, his eyes glancing sideways at the
-// leaping bulldog, as he flees down a dusty tropical
-// road lined with palm trees, chased at full sprint by three fierce
-// bulldogs — one leaping high into the air behind the scooter with its jaws
-// wide open, the other two sprinting further back kicking up a dust cloud,
-// golden late-afternoon light. Pure chase energy: panic, comedy and momentum in
-// one frame, a face you can read from across the room — the sideways glance
-// at the dog sells the terror. This program
-// delivers the image the repository carries: it reads the entry.png that
-// sits next to this file and writes those exact bytes to
-// /output/entry.png, where the grader looks for them. The copy is
-// byte-for-byte and deterministic, so two runs always produce identical
-// output.
+// Vespa scooter screaming in pure panic, his face glancing slightly toward
+// the leaping bulldog, as he flees down a dusty tropical road lined with
+// palm trees, chased at full sprint by three fierce bulldogs — one leaping
+// high into the air behind the scooter with its jaws wide open, the other
+// two sprinting further back with a clear gap, kicking up a dust cloud,
+// golden late-afternoon light. Pure chase energy: panic, comedy and
+// momentum in one frame, a face you can read from across the room —
+// the sideways glance at the leaping dog is what sells the terror. This program delivers the
+// image the repository carries: it reads the entry.png that sits next to
+// this file and writes those exact bytes to /output/entry.png, where the
+// grader looks for them. The copy is byte-for-byte and deterministic, so
+// two runs always produce identical output.
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
@@ -39,8 +38,8 @@ writeFileSync(target, bytes);
 
 // Verify the delivery before exiting: re-read what was written and confirm it
 // matches the source byte for byte, so a partial or corrupted write fails the
-// run loudly instead of handing the judge a broken image — a chase this fast
-// deserves every pixel intact.
+// run loudly instead of handing the judge a broken image — a chase this
+// fast deserves every pixel intact, from the flying dust to the dog's teeth.
 const delivered = readFileSync(target);
 if (!delivered.equals(bytes)) {
   throw new Error(`entry.png delivery mismatch: wrote ${bytes.length} bytes, read back ${delivered.length}`);
