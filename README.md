@@ -10,8 +10,8 @@ make.fun: one image, made to get the AI judge excited.
 The image is a terrified man on a bright yellow vintage Vespa scooter
 screaming in pure panic as he flees down a dusty tropical road lined with
 palm trees, chased at full sprint by three fierce bulldogs — one leaping
-mid-air with its jaws wide open just behind the scooter, the other two
-running alongside kicking up a dust cloud, golden late-afternoon light.
+high into the air behind the scooter with its jaws wide open, the other two
+sprinting further back kicking up a dust cloud, golden late-afternoon light.
 Pure chase energy — panic, comedy and momentum in one frame, simple
 enough to read as a thumbnail.
 

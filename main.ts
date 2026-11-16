@@ -4,9 +4,9 @@
 // The entry is a single image: a terrified man on a bright yellow vintage
 // Vespa scooter screaming in pure panic as he flees down a dusty tropical
 // road lined with palm trees, chased at full sprint by three fierce
-// bulldogs — one leaping mid-air with its jaws wide open just behind the
-// scooter, the other two running alongside kicking up a dust cloud, golden
-// late-afternoon light. Pure chase energy: panic, comedy and momentum in
+// bulldogs — one leaping high into the air behind the scooter with its jaws
+// wide open, the other two sprinting further back kicking up a dust cloud,
+// golden late-afternoon light. Pure chase energy: panic, comedy and momentum in
 // one frame, a face you can read from across the room. This program
 // delivers the image the repository carries: it reads the entry.png that
 // sits next to this file and writes those exact bytes to
