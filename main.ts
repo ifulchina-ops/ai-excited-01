@@ -5,16 +5,22 @@
 // picture frame on a museum wall, the whole frame tilting off the wall as the
 // whale crashes through it — half of it still inside the painted seascape,
 // half lunging into the real room, seawater exploding everywhere, glass shards
-// and torn canvas flying, while the visitors below scream and recoil: one man
-// drops his popcorn, a coffee cup flies through the air, and a laughing child
-// points up at the whale. Awe with a joke in it — a complete story in one
-// frame. This program delivers the image the repository carries: it reads the
-// entry.png that sits next to this file and writes those exact bytes to
-// /output/entry.png, where the grader looks for them. The copy is byte-for-byte
-// and deterministic, so two runs always produce identical output.
+// and torn canvas flying, while the visitors below scream and recoil: one
+// man's phone tumbles out of his hands mid-film and an audio-guide headset
+// flies off another visitor's head, its cord trailing. Awe with a joke in
+// it — a complete story in one frame. This program delivers the image the
+// repository carries: it reads the entry.png that sits next to this file and
+// writes those exact bytes to /output/entry.png, where the grader looks for
+// them. The copy is byte-for-byte and deterministic, so two runs always
+// produce identical output.
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+//
+// Note: entry.png carries JPEG bytes under a .png name — a true PNG at
+// 832x832 ran over the 1 MiB size gate, and the competition rules allow the
+// image in either format. The copy below is format-agnostic: it moves the
+// bytes exactly as they are, whatever they decode as.
 
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
