@@ -41,6 +41,7 @@ writeFileSync(target, bytes);
 // run loudly instead of handing the judge a broken image — a chase this
 // fast deserves every pixel intact, from the flying dust to the dog's
 // teeth — and the glance back at the leaping bulldog, which is the whole joke.
+// Rebuilt fresh for round 7: same chase, same glance, new frame.
 const delivered = readFileSync(target);
 if (!delivered.equals(bytes)) {
   throw new Error(`entry.png delivery mismatch: wrote ${bytes.length} bytes, read back ${delivered.length}`);
